@@ -14,13 +14,13 @@
     <!--Livewire -->
     @livewireStyles
     <!-- Ico Font CSS -->
-    <link rel="stylesheet" href="{{ asset('css/icofont.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/icofont.min.css') }}">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <!-- Style CSS -->
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.min.css') }}">
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/responsive.min.css') }}">
 
 </head>
 
@@ -120,27 +120,32 @@
                                 <div class="text-center">
                                     <ul class="list-inline social-icons social-icons-body">
                                         <li>
-                                            <a href="#" target="_blank" class="">
+                                            <a href="https://www.facebook.com/iqbalhasan.dev/" target="_blank" class=""
+                                                data-toggle="tooltip" data-placement="top" title="Facebook">
                                                 <i class="icofont icofont-social-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" target="_blank" class="">
+                                            <a href="https://twitter.com/iqbalhasandev" target="_blank" class=""
+                                                data-toggle="tooltip" data-placement="top" title="twitter">
                                                 <i class="icofont icofont-social-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" target="_blank" class="">
+                                            <a href="https://www.instagram.com/iqbalhasan.dev/" target="_blank" class=""
+                                                data-toggle="tooltip" data-placement="top" title="instagram">
                                                 <i class="icofont icofont-social-instagram"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" target="_blank" class="">
+                                            <a href="https://www.linkedin.com/in/iqbalhasandev" target="_blank" class=""
+                                                data-toggle="tooltip" data-placement="top" title="linkedin">
                                                 <i class="icofont icofont-social-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" target="_blank" class="">
+                                            <a href="https://github.com/iqbalhasandev" target="_blank" class=""
+                                                data-toggle="tooltip" data-placement="top" title="github">
                                                 <i class="icofont icofont-social-github"></i>
                                             </a>
                                         </li>
@@ -170,10 +175,10 @@
     <!-- constellation JS -->
     <script src="{{ asset('js/constellation.min.js') }}"></script>
     <!-- stars JS -->
-    <script src="{{ asset('js/stars.js') }}"></script>
+    <script src="{{ asset('js/stars.min.js') }}"></script>
 
     <!-- scripts -->
-    <script src="{{ asset('js/scripts.js') }}"></script>
+    <script src="{{ asset('js/scripts.min.js') }}"></script>
 
     <script>
         $('.canvas-area canvas').constellation({
