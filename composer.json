@@ -16,7 +16,8 @@
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5",
         "livewire/livewire": "^2.4",
-        "renatomarinho/laravel-page-speed": "^2.0"
+        "renatomarinho/laravel-page-speed": "^2.0",
+        "spatie/laravel-sitemap": "^5.9"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
