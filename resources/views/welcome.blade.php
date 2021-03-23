@@ -8,12 +8,11 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Favicon -->
-    {{-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> --}}
-    {{-- <link rel="icon" href="favicon.ico" type="image/x-icon"> --}}
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
+    <!--Livewire -->
+    @livewireStyles
     <!-- Ico Font CSS -->
     <link rel="stylesheet" href="{{ asset('css/icofont.css') }}">
     <!-- Bootstrap CSS -->
@@ -114,22 +113,7 @@
                 <div id="subscribe-form">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <!-- /START SUBSCRIBE FORM -->
-                            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6 col-xl-6  text-center">
-                                <div class="subscribe-form text-center">
-                                    <form action="#" class="form-inline mx-auto">
-                                        <input type="email" name="email" class="form-control btn-rounded"
-                                            placeholder="youremail@gmail.com">
-                                        <button type="submit" class="btn btn-purple btn-round"><i
-                                                class="icofont icofont-paper-plane"></i></button>
-                                    </form>
-
-                                    <p class="small-title">
-                                        Subscribe with your mail so we can notify you when our site is ready
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- /END SUBSCRIBE FORM -->
+                            @livewire('subscriber-component')
 
                             <!-- /START SOCIAL ICONS -->
                             <div class="col-md-12">
@@ -176,6 +160,7 @@
     <!-- /MAIN CONTENT PART ENDS -->
 
 
+
     <!-- jQuery -->
     <script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
     <!-- Bootstrap JS -->
@@ -186,6 +171,7 @@
     <script src="{{ asset('js/constellation.min.js') }}"></script>
     <!-- stars JS -->
     <script src="{{ asset('js/stars.js') }}"></script>
+
     <!-- scripts -->
     <script src="{{ asset('js/scripts.js') }}"></script>
 
@@ -201,6 +187,9 @@
 			radius: (window.innerWidth / 5)
 		});
     </script>
+
+    <!--Livewire -->
+    @livewireScripts
 </body>
 
 </html>
